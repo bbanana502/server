@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/<letter>')  
 def parameter(letter):         
-    return '%s flask world!!!!' %letter
+    return f'{letter} flask world!!!!'
 
 
 print(__name__)
